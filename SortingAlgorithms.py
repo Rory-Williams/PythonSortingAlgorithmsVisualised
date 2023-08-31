@@ -78,6 +78,8 @@ def selection_sort(draw_info, ascending=True):
 
 
 def merge_sort(draw_info, ascending=True, draw_info_temp=[], div=0, r_div=0, r=0, new_lst=[]):
+    # sort algo working but doesnt show progressive sort at the moment
+
     if type(draw_info) is not list:
         lst = draw_info.lst
         draw_info_temp = draw_info

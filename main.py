@@ -28,7 +28,7 @@ def main():
     sort_alg_gen = None     # used to perform algorithm
 
     while run:  # pygame main loop to handle game
-        clock.tick(120)  # fps of clock, remove for max speed of CPU
+        clock.tick(500)  # fps of clock, remove for max speed of CPU
         if sorting:
             try:
                 next(sort_alg_gen)
